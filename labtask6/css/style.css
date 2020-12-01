@@ -1,0 +1,139 @@
+*{
+	font-family: sans-serif;
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html,body{
+	height: 100%;
+}
+/*header css*/
+header{
+	overflow: hidden;
+	border-bottom: 1px solid #ddd;
+}
+.container{
+	width: 80%;
+    margin: 0 auto;
+}
+.brand{
+	width: 20%;
+    float: left;
+}
+.brand a{
+	font-size: 30px;
+    font-weight: 700;
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 25px 0;
+    display: inline-block;
+}
+.menu{
+	width: 80%;
+    float: left;
+}
+.menu ul{
+	text-align: right;
+	list-style-type: none;
+	margin-top: 11px;
+}
+.menu ul li{
+	display: inline-block;
+}
+.menu ul li a{
+	font-size: 18px;
+    font-weight: 400;
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 25px 35px;
+    display: block;
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+.menu ul li a:hover{
+	font-weight: 500;
+	text-decoration: underline;
+}
+
+
+/*welcome css*/
+.main{
+	overflow: hidden;
+}
+.main .welcome-content{
+	width: 60%;
+    background-color: #ddd;
+    text-align: center;
+    padding: 150px 0;
+    margin:100px auto;
+}
+.main .welcome-content h1{
+	text-transform: uppercase;
+}
+
+/*login css*/
+.login-area{
+	width: 60%;
+    margin: 50px auto;
+    background-color: #ddd;
+    padding: 25px 30px;
+    border-radius: 5px;
+}
+.login-area h2{
+	font-size: 30px;
+	font-weight: 500;
+	color:#000;
+	text-align: center;
+}
+.login-area label{
+	font-size: 18px;
+	font-weight: 400;
+	color: #000;
+	margin-top: 20px;
+	display: inline-block;
+}
+.login-area .form-input{
+	display: block;
+    width: 100%;
+    padding: 8px 0px;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 5px;
+    padding:10px;
+}
+.login-area .rem{
+	margin-top: 20px;
+}
+.login-area .input-text:focus{
+	outline: none;
+}
+.login-area .input-pass:focus{
+	outline: none;
+}
+.login-area .input-submit{
+	cursor: pointer;
+	background-color:rgba(0, 140, 255, 1);
+	border: none;
+	margin-top: 20px;
+}
+.login-area .input-submit:hover{
+	background-color:rgba(0, 140, 255, 0.7);
+}
+
+
+
+
+
+/*footer css*/
+footer{
+	border-top: 1px solid #ddd;
+}
+.credit{
+	font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    padding: 20px 0;
+}
