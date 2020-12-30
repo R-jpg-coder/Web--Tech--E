@@ -1,0 +1,86 @@
+/* header css */
+.header{
+	background-color:#ff2983;
+}
+.logo{
+	background-color:#dddddd;
+	min-height:100px;
+	width:20%;
+	float:left;
+}
+.brand{
+	background-color:#dd19fc;
+	min-height:100px;
+	width:80%;
+	float:right
+}
+/* header css */
+
+/* navigation css */
+.nav{
+	background-color:#ff2983;
+	text-align:center;
+}
+.nav a{
+	font-size:35px;
+	color:#fff;
+	display:inline-block;
+	padding: 5px 20px;
+}
+/* navigation css */
+
+/* content css */
+.content{
+	background-color:#f9c345;
+}
+.main{
+	width:70%;
+	height:450px;
+	background-color:#434343;
+	float:left;
+}
+.sidebar{
+	width:30%;
+	height:450px;
+	background-color:green;
+	float:right;
+}
+/* content css */
+
+/* services css */
+.service{
+	background-color:orange;
+}
+.service_item1{
+	width:25%;
+	background-color:red;
+	min-height:150px;
+	float:left;
+}
+.service_item2{
+	width:25%;
+	background-color:orange;
+	min-height:150px;
+	float:left;
+}
+.service_item3{
+	width:25%;
+	background-color:steelblue;
+	min-height:150px;
+	float:left;
+}
+.service_item4{
+	width:25%;
+	background-color:blue;
+	min-height:150px;
+	float:left;
+}
+/* services css */
+
+/* footer css */
+.footer{
+	background-color:#ff2983;
+	text-align:center;
+}
+/* footer css */
+

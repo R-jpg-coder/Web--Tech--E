@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Html Form validation</title>
+		<script>
+			function validation(){
+				var fname = document.myForm.fname.value;
+				var lname = document.myForm.lname.value;
+				
+				if(fname == "" || lname==""){
+					alert("Please fill out this field.")
+				}
+			}
+		</script>
+	</head>
+	<body>
+		<form name="myForm" onsubmit="return validation()">
+			First Name: <input type="text" name="fname"><br><br>
+			Last Name: <input type="text" name="lname"><br><br>
+			<input type="submit" name="submit">
+			
+		</form>
+	</body>
+</html>
