@@ -1,0 +1,17 @@
+x=int(input("Enter first number\n"))
+y=int(input("Enter second number\n"))
+z=int(input("Enter third number\n"))
+if x>y and x>z:
+    print("Leargest number", x)
+elif y>x and y>z:
+    print("Largest number",y)
+elif z>x and z>y:
+    print("Largest number",z)
+else:
+    print("Nothing")
+
+r=int(input("Given radius of circle\n"))
+
+print((r**2)*3.14)
+
+
